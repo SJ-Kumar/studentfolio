@@ -2,6 +2,9 @@
 
 Use Flask, Jinja, Google Maps API to create a new student portfolio page.
 
+# Inspiration
+ https://www.figma.com/file/xvevtcKbVCcdJ2yi86aov3/portfolio-page?node-id=0%3A1
+
 <div align="center">
 <br>
 <a href="https://github.com/SJ-Kumar/studentfolio/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SJ-Kumar/studentfolio?color=2b9348"></a>
