@@ -30,9 +30,9 @@ A Google API map that renders points that the user has visited
   
   Google Maps API in JavaScript to mark locations visited in each profile page
   
-  File Structure
-  
-  main
+ # File Structure
+```
+main
 │   README.md                               # Explains this respository
 |   LICENSE.md                              # Details of this project's MIT license
 │   .gitignore                              # Files to be ignored by git
@@ -68,7 +68,7 @@ A Google API map that renders points that the user has visited
         |   locations.html                 # Template that displays the Google Map
         |   pageOverlay.html               # Template for overlays in other pages
         |   landingPage.html               # Template that displays the landingPage
-        
+ ```       
         
   ## Installation
     Using the command line, clone the repo on your machine
