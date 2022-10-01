@@ -30,9 +30,9 @@ A Google API map that renders points that the user has visited
   
   Google Maps API in JavaScript to mark locations visited in each profile page
   
-  File Structure
-  
-  main
+ # File Structure
+```
+main
 │   README.md                               # Explains this respository
 |   LICENSE.md                              # Details of this project's MIT license
 │   .gitignore                              # Files to be ignored by git
@@ -68,35 +68,53 @@ A Google API map that renders points that the user has visited
         |   locations.html                 # Template that displays the Google Map
         |   pageOverlay.html               # Template for overlays in other pages
         |   landingPage.html               # Template that displays the landingPage
+ ```       
         
-        
-  ## Installation
-    Using the command line, clone the repo on your machine
+ ## Installation
+Using the command line, clone the repo on your machine
+```
+git clone <remote url copied from Github>
+cd <repo directory name>
 
-    git clone <remote url copied from Github>
-    cd <repo directory name>
-
+```
 Make sure you have python3 and pip installed
 
 Create and activate virtual environment using virtualenv
-
+```bash
 $ python -m venv python3-virtualenv
 $ source python3-virtualenv/bin/activate
-Use the package manager pip to install all dependencies!
+```
 
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all dependencies!
+
+```bash
 pip install -r requirements.txt
-Usage
+```
+
+## Usage
+
 Create a .env file using the example.env template (make a copy using the variables inside of the template)
 
 Start flask development server
-
+```bash
 $ export FLASK_ENV=development
 $ flask run
-You should get a response like this in the terminal:
+```
 
+You should get a response like this in the terminal:
+```
 ❯ flask run
  * Environment: development
  * Debug mode: on
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-You'll now be able to access the website at localhost:5000 or 127.0.0.1:5000 in the browser!
+```
+
+You'll now be able to access the website at `localhost:5000` or `127.0.0.1:5000` in the browser! 
+
+*Note: The portfolio site will only work on your local machine while you have it running inside of your terminal. 
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 
